@@ -1,10 +1,14 @@
 function Footer(){
-   
+    let data = "deepanshu";
+   function clicked(){
+       alert("clicked");
+   }
     return(
         <>
         <div  >
             
-         <h3>Footer</h3>
+         <h3>{data}</h3>
+         <button onClick={clicked}>click me</button>
  
         </div>
         </>
