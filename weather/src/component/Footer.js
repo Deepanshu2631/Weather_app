@@ -1,8 +1,11 @@
+import react from "react";
+import { useState } from "react";
 function Footer(){
-    let data = "deepanshu";
-   function clicked(){
-       alert("clicked");
-   }
+    const[data , setdata]  = useState(100)
+    function clicked(){
+        
+        setdata(data-1);
+    }
     return(
         <>
         <div  >
